@@ -1,4 +1,4 @@
-# SOLID  OS 5 PRINCIPIOS
+# >>>>>>>>>>>>>>>>SOLID  OS 5 PRINCIPIOS<<<<<<<<<<<<<<<<
 
 ### 3 dicas que resumi os 5 principios
 que podem ajudar no começo
