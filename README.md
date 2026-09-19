@@ -40,3 +40,23 @@
 #### Anotações
 - Caminho do README do exemplo certo: [src/o/right/README.md](src/o/right/README.md)
 
+---
+# [l] liskov substitution principle (LSP)
+# Principio da substituição de liskov
+
+#### Estrutura
+
+- `src/l/wrong/` — exemplo que quebra o princípio LSP (quadrado estende retângulo)
+  - `Wrong.java` — código com o quadrado mudando o funcionamento do retângulo
+  - `README.md` — anotações sobre a classe Wrong
+#### anotação
+- Caminho do README do exemplo errado: [src/l/wrong/README.md](src/l/wrong/README.md)
+
+---
+- `src/l/right/` — exemplo corrigido, seguindo o princípio
+  - `Right.java` — código com a interface Shape e cada forma implementando ela
+  - `README.md` — anotações sobre a classe Right
+
+#### Anotações
+- Caminho do README do exemplo certo: [src/l/right/README.md](src/l/right/README.md)
+
