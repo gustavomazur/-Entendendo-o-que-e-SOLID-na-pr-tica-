@@ -1,7 +1,15 @@
 # SOLID
 
-                     # [s] single responsibility principle (SRP) 
-                     # Principio da responsabilidade unica
+### 3 dicas que resumi os principios
+que podem ajudar no começo
+- Obetivo geral do SOLID são 3 coisas principalmente 
+- sempre dividir o segu código cada coisa no seu quadrado 
+- quando perceber que tá adpatando muito seu código para adicionar 
+algo novo, provalmente dá pra melhorar seu código
+- pensa que tecnhologias mudam, quando usar coisas externas, isola essa coisa externa 
+---
+# [s] single responsibility principle (SRP) 
+# Principio da responsabilidade unica
 - Estudos sobre os princípios SOLID, usando o exemplo do carro e o log.
 
 #### Estrutura
@@ -59,4 +67,44 @@
 
 #### Anotações
 - Caminho do README do exemplo certo: [src/l/right/README.md](src/l/right/README.md)
+
+---
+# [i] interface segregation principle (ISP)
+# Principio da segregação de interfaces
+
+#### Estrutura
+
+- `src/i/wrong/` — exemplo que quebra o princípio ISP (interface abrangente demais)
+  - `Wrong.java` — código com a interface Vehicle forçando o helicóptero a ter rodas e tipo de direção
+  - `README.md` — anotações sobre a classe Wrong
+#### anotação
+- Caminho do README do exemplo errado: [src/i/wrong/README.md](src/i/wrong/README.md)
+
+---
+- `src/i/right/` — exemplo corrigido, seguindo o princípio
+  - `Right.java` — código com as interfaces divididas (Vehicle, AutomotiveVehicle, AerialVehicle)
+  - `README.md` — anotações sobre a classe Right
+
+#### Anotações
+- Caminho do README do exemplo certo: [src/i/right/README.md](src/i/right/README.md)
+
+---
+# [d] dependency inversion principle (DIP)
+# Principio da inversão de dependencia
+
+#### Estrutura
+
+- `src/d/wrong/` — exemplo que quebra o princípio DIP (Payment instancia as classes concretas)
+  - `Wrong.java` — código com o Payment decidindo pelo type entre Pagseguro e MercadoPago
+  - `README.md` — anotações sobre a classe Wrong
+#### anotação
+- Caminho do README do exemplo errado: [src/d/wrong/README.md](src/d/wrong/README.md)
+
+---
+- `src/d/right/` — exemplo corrigido, seguindo o princípio
+  - `Right.java` — código com a interface PaymentHandler e o Payment recebendo o handler por injeção de dependência
+  - `README.md` — anotações sobre a classe Right
+
+#### Anotações
+- Caminho do README do exemplo certo: [src/d/right/README.md](src/d/right/README.md)
 
