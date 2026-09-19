@@ -1,6 +1,6 @@
-# SOLID
+# SOLID  OS 5 PRINCIPIOS
 
-### 3 dicas que resumi os principios
+### 3 dicas que resumi os 5 principios
 que podem ajudar no começo
 - Obetivo geral do SOLID são 3 coisas principalmente 
 - sempre dividir o segu código cada coisa no seu quadrado 
