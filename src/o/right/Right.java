@@ -61,7 +61,7 @@ class Transport implements ITransport {
 // Nova classe: só estendi e coloquei o multiplicador e o divisor da nave espacial
 class TransportBySpacechip extends Transport {
     public TransportBySpacechip(double volume, double distance) {
-        super("Plane", volume, distance);
+        super("Spaceship", volume, distance);
     }
 
     @Override
