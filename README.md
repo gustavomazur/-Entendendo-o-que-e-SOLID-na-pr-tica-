@@ -1,12 +1,11 @@
 # SOLID  OS 5 PRINCIPIOS
 
-### 3 dicas que resumi os 5 principios
-que podem ajudar no começo
-- Obetivo geral do SOLID são 3 coisas principalmente 
-- sempre dividir o segu código cada coisa no seu quadrado 
-- quando perceber que tá adpatando muito seu código para adicionar 
-algo novo, provalmente dá pra melhorar seu código
-- pensa que tecnhologias mudam, quando usar coisas externas, isola essa coisa externa 
+# 3 dicas que resumi dos 5 princípios (SOLID) que podem ajudar no começo
+
+- O objetivo geral do SOLID são 3 coisas, principalmente:
+- Sempre divida o seu código, cada coisa no seu quadrado.
+- Quando perceber que está adaptando muito o seu código para adicionar algo novo, provavelmente dá pra melhorar o código.
+- Pense que tecnologias mudam: quando usar coisas externas, isole essa coisa externa.
 ---
 # [s] single responsibility principle (SRP) 
 # Principio da responsabilidade unica
